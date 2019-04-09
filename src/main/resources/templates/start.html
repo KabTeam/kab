@@ -3,8 +3,8 @@
 <head>
     <title>Untitled Document</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link type="text/css" href="resources/css/reset.css" rel="Stylesheet" />
-    <link type="text/css" href="resources/css/default.css" rel="Stylesheet" />
+    <link type="text/css" th:href="@{resources/css/reset.css}" rel="Stylesheet" />
+    <link type="text/css" th:href="@{resources/css/default.css}" rel="Stylesheet" />
 
     <script type="text/javascript">
         if (location.href.toString().indexOf('file://localhost/') == 0) {
@@ -12,12 +12,12 @@
         }
     </script>
 
-    <script type="text/javascript" src="resources/scripts/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="resources/scripts/player/splitter.js"></script>
-    <script type="text/javascript" src="resources/scripts/axutils.js"></script>
-    <script type="text/javascript" src="resources/scripts/player/axprototype.js"></script>
-    <script type="text/javascript" src="resources/scripts/messagecenter.js"></script>
-    <script type="text/javascript" src="data/document.js"></script>
+    <script type="text/javascript" th:src="@{resources/scripts/jquery-1.7.1.min.js}"></script>
+    <script type="text/javascript" th:src="@{resources/scripts/player/splitter.js}"></script>
+    <script type="text/javascript" th:src="@{resources/scripts/axutils.js}"></script>
+    <script type="text/javascript" th:src="@{resources/scripts/player/axprototype.js}"></script>
+    <script type="text/javascript" th:src="@{resources/scripts/messagecenter.js}"></script>
+    <script type="text/javascript" th:src="@{data/document.js}"></script>
     <style type="text/css">
 
 #outerContainer {
