@@ -3,40 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="66c38398-0463-4b5e-9aaf-181a1e984063" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/InformationPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/InformationPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/contactUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/contactUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/copyrightNotice.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/copyrightNotice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/courseDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/courseDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/createClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/createClass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/kabCourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/kabCourse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/kabNotice.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/kabNotice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/kabNoticeManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/kabNoticeManage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/kabSsurveyManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/kabSsurveyManage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/kabSurvey.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/kabSurvey.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/kabSurveyReferralManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/kabSurveyReferralManage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/manageClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/manageClass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/memberCenter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/memberCenter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/memberLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/memberLogin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/memberRegist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/memberRegist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/modifyBusinessInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/modifyBusinessInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/modifyClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/modifyClass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/modifyClass_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/modifyClass_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/modifyKabNotice.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/modifyKabNotice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/modifyNews.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/modifyNews.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/modifyPassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/modifyPassword.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/modifyPassword_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/modifyPassword_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/modifyPersonalData.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/modifyPersonalData.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/newsDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/newsDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/newsManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/newsManage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/newsShow.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/newsShow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/retrievePassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/retrievePassword.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/reviseCourseIntroduction.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/reviseCourseIntroduction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/singlePageManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/singlePageManage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sysParamConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sysParamConfig.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/talentRecruitment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/talentRecruitment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userManager.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -140,7 +106,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="88" />
+          <entry key="html" value="89" />
           <entry key="java" value="3" />
           <entry key="xml" value="2" />
           <entry key="yml" value="2" />
@@ -148,7 +114,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="88" />
+          <entry key="HTML" value="89" />
           <entry key="JAVA" value="3" />
           <entry key="XML" value="2" />
           <entry key="YAML" value="2" />
@@ -173,92 +139,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/newsManage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/newsShow.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/retrievePassword.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/reviseCourseIntroduction.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/singlePageManage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/start.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userManager.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/talentRecruitment.html">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/contactUs.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/sysParamConfig.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/start_c_1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -802,7 +687,7 @@
       <workItem from="1554689061340" duration="6002000" />
       <workItem from="1554704906481" duration="2985000" />
       <workItem from="1554709738695" duration="11998000" />
-      <workItem from="1554769748872" duration="4281000" />
+      <workItem from="1554769748872" duration="4942000" />
     </task>
     <task id="LOCAL-00001" summary="初始项目">
       <created>1554726340733</created>
@@ -832,11 +717,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554773121132</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="初始项目">
+      <created>1554774082263</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554774082263</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51132000" />
+    <option name="totallyTimeSpent" value="51793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="886" extended-state="6" />
@@ -1003,13 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="40" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/contactUs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1181,23 +1066,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/newsManage.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/singlePageManage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/newsShow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/retrievePassword.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
@@ -1209,7 +1087,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/singlePageManage.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/retrievePassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/newsShow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/newsManage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
@@ -1244,10 +1136,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/start.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/contactUs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+        <state relative-caret-position="171">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
         </state>
       </provider>
     </entry>
