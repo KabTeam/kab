@@ -1,9 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66c38398-0463-4b5e-9aaf-181a1e984063" name="Default Changelist" comment="">
+    <list default="true" id="66c38398-0463-4b5e-9aaf-181a1e984063" name="Default Changelist" comment="初始项目">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f7165126-d138-4052-b318-d05b13ca2765.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f7165126-d138-4052-b318-d05b13ca2765/storage_v2/_src_/schema/KAB.rCEBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f7165126-d138-4052-b318-d05b13ca2765/storage_v2/_src_/schema/PUBLIC.aaZQjQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7b3cc2a-3477-4614-b03e-505264569498.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7b3cc2a-3477-4614-b03e-505264569498/storage_v2/_src_/schema/KAB.rCEBAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/InformationPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/InformationPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/addBusinessInfoMation.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/addBusinessInfoMation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/addCourceIntroduction.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/addCourceIntroduction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/addKabNotice.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/addKabNotice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/addNews.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/addNews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/announcementDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/announcementDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/applyEncrypted.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/applyEncrypted.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/backgroundLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/backgroundLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/bottomOfPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/bottomOfPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/businessInformation.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/businessInformation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/businessInformationManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/businessInformationManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/chm_start.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/chm_start.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/classManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/classManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/commentsManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/commentsManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/contactUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/contactUs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/copyrightNotice.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/copyrightNotice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/courseDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/courseDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/createClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/createClass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/kabCourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/kabCourse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/kabNotice.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/kabNotice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/kabNoticeManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/kabNoticeManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/kabSsurveyManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/kabSsurveyManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/kabSurvey.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/kabSurvey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/kabSurveyReferralManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/kabSurveyReferralManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/manageClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/manageClass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/memberCenter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/memberCenter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/memberLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/memberLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/memberRegist.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/memberRegist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/modifyBusinessInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/modifyBusinessInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/modifyClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/modifyClass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/modifyClass_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/modifyClass_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/modifyKabNotice.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/modifyKabNotice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/modifyNews.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/modifyNews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/modifyPassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/modifyPassword.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/modifyPassword_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/modifyPassword_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/modifyPersonalData.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/modifyPersonalData.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/newsDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/newsDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/newsManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/newsManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/newsShow.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/newsShow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/retrievePassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/retrievePassword.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/reviseCourseIntroduction.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/reviseCourseIntroduction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/singlePageManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/singlePageManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/start.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/start_c_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/start_c_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/sysParamConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/sysParamConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/talentRecruitment.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/talentRecruitment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userManager.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,127 +81,28 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="KAB: schema" type="ac44c5e0:OracleImplModel$Schema" />
-      </path>
-    </expand>
+    <expand />
     <select />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1710173163">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.45" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="29" />
-          <entry key="html" value="154" />
-          <entry key="java" value="4376" />
-          <entry key="txt" value="14" />
-          <entry key="xml" value="35" />
-          <entry key="yml" value="211" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="154" />
-          <entry key="JAVA" value="4376" />
-          <entry key="PLAIN_TEXT" value="43" />
-          <entry key="XML" value="35" />
-          <entry key="YAML" value="211" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="html" value="3" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="295" />
-          <entry key="jsp" value="1" />
-          <entry key="sql" value="1" />
-          <entry key="xml" value="8" />
-          <entry key="ymi" value="1" />
-          <entry key="yml" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="HTML" value="3" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="295" />
-          <entry key="JSP" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Scratch" value="1" />
-          <entry key="XML" value="8" />
-          <entry key="YAML" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-1568710818">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.33" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="html" value="89" />
-          <entry key="java" value="3" />
-          <entry key="xml" value="2" />
-          <entry key="yml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="89" />
-          <entry key="JAVA" value="3" />
-          <entry key="XML" value="2" />
-          <entry key="YAML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="html" value="1052" />
-          <entry key="java" value="74" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="1052" />
-          <entry key="JAVA" value="74" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="kab" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/contactUs.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+            <state relative-caret-position="855">
+              <caret line="57" column="37" lean-forward="true" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -164,15 +122,10 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="a9560b57-ee15-4857-98bc-f782fe3a5970" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/cn/bdqn/kab/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/addBusinessInfoMation.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/addCourceIntroduction.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/addKabNotice.html" />
@@ -221,14 +174,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/talentRecruitment.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/sysParamConfig.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/start.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -260,10 +209,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="231" />
-    <option name="y" value="2" />
-    <option name="width" value="1458" />
-    <option name="height" value="1028" />
+    <option name="x" value="230" />
+    <option name="width" value="1460" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -534,9 +482,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -577,7 +522,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="kab" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kab" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kab" type="b2602c69:ProjectViewProjectNode" />
@@ -594,16 +549,12 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="kab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kab" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -618,18 +569,22 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554728380471" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554861105524" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.bdqn.kab" />
-    </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="cn.bdqn.kab.pojo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.bdqn.kab" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Git仓库\kab\src\main\resources\templates" />
@@ -689,6 +644,7 @@
       <workItem from="1554704906481" duration="2985000" />
       <workItem from="1554709738695" duration="11998000" />
       <workItem from="1554769748872" duration="4942000" />
+      <workItem from="1554856696193" duration="3933000" />
     </task>
     <task id="LOCAL-00001" summary="初始项目">
       <created>1554726340733</created>
@@ -729,190 +685,61 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51793000" />
+    <option name="totallyTimeSpent" value="57753000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1563" height="886" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49387756" visible="true" weight="0.28970098" />
-      <window_info id="Structure" order="1" sideWeight="0.5030675" side_tool="true" weight="0.18803987" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4944134" visible="true" weight="0.29758713" />
+      <window_info id="Structure" order="1" sideWeight="0.50558656" side_tool="true" weight="0.2935657" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.5030675" side_tool="true" weight="0.18803987" />
+      <window_info id="Favorites" order="5" sideWeight="0.50558656" side_tool="true" weight="0.2935657" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.50136983" side_tool="true" weight="0.18538205" />
+      <window_info id="Web" order="7" sideWeight="0.50558656" side_tool="true" weight="0.2935657" />
       <window_info id="Persistence" order="8" sideWeight="0.50612247" side_tool="true" weight="0.28172758" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32784638" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.83798885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.39385474" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3251029" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32921812" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49932975" weight="0.3282123" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32960895" />
+      <window_info anchor="right" id="Maven" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.13421927" />
-      <window_info anchor="right" id="Database" order="6" weight="0.1255814" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32956812" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32908848" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始项目" />
     <option name="LAST_COMMIT_MESSAGE" value="初始项目" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/kab/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/resources/Other.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/chm_start.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addCourceIntroduction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addKabNotice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addNews.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/announcementDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/applyEncrypted.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/backgroundLogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/bottomOfPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/businessInformation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/businessInformationManage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/classManage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="68" lean-forward="true" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/commentsManage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="40" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/copyrightNotice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/courseDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/createClass.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -1144,6 +971,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/kab/controller/AdministratorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/kab/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/kab/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/kab/pojo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/kab/pojo/School.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f7b3cc2a-3477-4614-b03e-505264569498/schema/KAB/table/USERS" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f7165126-d138-4052-b318-d05b13ca2765/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/kab/pojo/KabUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f7165126-d138-4052-b318-d05b13ca2765/schema/KAB/table/KABUSERS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ROWID" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/kab/dao/ArticleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/kab/dao/StudentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/kab/pojo/Administrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/kab/pojo/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/kab/pojo/Articletype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/bdqn/kab/KabApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="37" lean-forward="true" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1158,9 +1100,83 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>kab:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>kab</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.oracle:ojdbc6:12.1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
