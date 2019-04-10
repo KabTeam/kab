@@ -6,7 +6,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/memberaudit")
 public class MemberauditController {
     @Autowired
     private MemberauditService memberauditService;

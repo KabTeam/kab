@@ -6,7 +6,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/articletype")
 public class ArticletypeController  {
     @Autowired
     private ArticleService articleService;

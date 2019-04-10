@@ -6,9 +6,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/administrator")
 public class AdministratorController {
     @Autowired
     private AdministratorService administratorService;
 
+    @RequestMapping("/login.html")
+    public String login(){
+        return "backgroundLogin";
+    }
 }
