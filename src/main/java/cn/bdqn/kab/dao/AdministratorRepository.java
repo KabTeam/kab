@@ -7,4 +7,11 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface AdministratorRepository extends JpaRepository<Administrator,Integer> {
 
+    /**
+     * 根据管理员用户名获取管理员
+     * @param
+     * @return
+     */
+    public Administrator findByadminName(String adminName)throws Exception;
+
 }

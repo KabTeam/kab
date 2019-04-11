@@ -51,8 +51,7 @@ public class Member {
     private String custom2;
     @Column(name = "CUSTOM3")
     private String custom3;
-    @Column(name = "USERID")
-    private Integer userid;
+
 
     public Integer getMid() {
         return mid;
@@ -222,11 +221,4 @@ public class Member {
         this.custom3 = custom3;
     }
 
-    public Integer getUserid() {
-        return userid;
-    }
-
-    public void setUserid(Integer userid) {
-        this.userid = userid;
-    }
 }

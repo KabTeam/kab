@@ -6,7 +6,7 @@ import javax.persistence.*;
 @Table(name = "KABUSERS")
 public class KabUsers {
     @Id
-    @GeneratedValue
+    @GeneratedValue()
     @Column(name = "USERID")
     private Integer userId;
     @Column(name = "USERNAME")
@@ -25,6 +25,9 @@ public class KabUsers {
     private String custom2;
     @Column(name = "CUSTOM3")
     private String custom3;
+    @OneToOne(cascade=CascadeType.ALL)
+    @JoinColumn(name="MEMBERID", unique=true)
+    private Member member;
 
     public Integer getUserId() {
         return userId;
@@ -96,5 +99,13 @@ public class KabUsers {
 
     public void setCustom3(String custom3) {
         this.custom3 = custom3;
+    }
+
+    public Member getMember() {
+        return member;
+    }
+
+    public void setMember(Member member) {
+        this.member = member;
     }
 }

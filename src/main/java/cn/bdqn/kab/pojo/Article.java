@@ -3,6 +3,7 @@ package cn.bdqn.kab.pojo;
 
         import javax.persistence.*;
         import java.sql.Date;
+        import java.util.List;
 
 @Entity
 @Table(name = "ARTICLE")
@@ -33,6 +34,9 @@ public class Article {
     private String custom2;
     @Column(name = "CUSTOM3")
     private String custom3;
+
+    @OneToMany(mappedBy = "article", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private List<Comments> commentsList;
 
     public Integer getArticleid() {
         return articleid;
