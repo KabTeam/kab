@@ -10,8 +10,9 @@ public class Classgrade {
     @GeneratedValue
     @Column(name = "CLASSGRADEID")
     private Integer classgradeid;
-    @Column(name = "USERID")
-    private Integer userid;
+    @OneToOne(fetch=FetchType.LAZY)
+    @JoinColumn(name="userId")
+    private KabUsers kabUsers;
     @Column(name = "SCHOOLID")
     private Integer schoolid;
     @Column(name = "CLASSGRADETYPEID")
@@ -35,12 +36,12 @@ public class Classgrade {
         this.classgradeid = classgradeid;
     }
 
-    public Integer getUserid() {
-        return userid;
+    public KabUsers getKabUsers() {
+        return kabUsers;
     }
 
-    public void setUserid(Integer userid) {
-        this.userid = userid;
+    public void setKabUsers(KabUsers kabUsers) {
+        this.kabUsers = kabUsers;
     }
 
     public Integer getSchoolid() {

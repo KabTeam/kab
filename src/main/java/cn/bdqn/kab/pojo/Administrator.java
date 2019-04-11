@@ -12,7 +12,7 @@ public class Administrator {
     @Column(name = "ADMINID")
     private Integer adminid;
     @Column(name = "ADMINNAME")
-    private String adminname;
+    private String adminName;
     @Column(name = "ADMINPWD")
     private String adminpwd;
     @Column(name = "CUSTOM1")
@@ -30,12 +30,12 @@ public class Administrator {
         this.adminid = adminid;
     }
 
-    public String getAdminname() {
-        return adminname;
+    public String getAdminName() {
+        return adminName;
     }
 
-    public void setAdminname(String adminname) {
-        this.adminname = adminname;
+    public void setAdminName(String adminName) {
+        this.adminName = adminName;
     }
 
     public String getAdminpwd() {

@@ -10,8 +10,11 @@ public class Comments {
     @GeneratedValue
     @Column(name = "COMMENTID")
     private Integer commentid;
-    @Column(name = "ARTICLEID")
-    private Integer articleid;
+
+    @ManyToOne(fetch = FetchType.LAZY,optional = false)
+    @JoinColumn(name="articleid")
+    private Article article;
+
     @Column(name = "USERID")
     private Integer userid;
     @Column(name = "COMMENTCONTENT")
@@ -33,12 +36,12 @@ public class Comments {
         this.commentid = commentid;
     }
 
-    public Integer getArticleid() {
-        return articleid;
+    public Article getArticle() {
+        return article;
     }
 
-    public void setArticleid(Integer articleid) {
-        this.articleid = articleid;
+    public void setArticle(Article article) {
+        this.article = article;
     }
 
     public Integer getUserid() {
