@@ -2,8 +2,6 @@ server:
   port: 8080
   tomcat:
     uri-encoding: UTF-8
-  servlet:
-    context-path: /kab
 spring:
   ##数据源
   jpa:
@@ -12,7 +10,7 @@ spring:
       ddl-auto: update
   datasource:
     driver-class-name: oracle.jdbc.driver.OracleDriver
-    url: jdbc:oracle:thin:@localhost:1521:orcl
+    url: jdbc:oracle:thin:@localhost:1521:oracle
     username: kab
     password: 123456
   ##thymeleaf视图解析器
