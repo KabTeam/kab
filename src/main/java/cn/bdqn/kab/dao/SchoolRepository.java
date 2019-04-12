@@ -9,11 +9,6 @@ import java.util.List;
 @Repository
 public interface SchoolRepository extends JpaRepository<School,Integer> {
 
-    /**
-     * 获取省份下的所有学校
-     * @param provinceId
-     * @return
-     */
-    public List<School> findByProvinceid(Integer provinceId);
+
 
 }

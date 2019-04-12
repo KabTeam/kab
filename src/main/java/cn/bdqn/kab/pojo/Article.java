@@ -3,7 +3,9 @@ package cn.bdqn.kab.pojo;
 
         import javax.persistence.*;
         import java.sql.Date;
+        import java.util.HashSet;
         import java.util.List;
+        import java.util.Set;
 
 @Entity
 @Table(name = "ARTICLE")
@@ -36,7 +38,7 @@ public class Article {
     private String custom3;
 
     @OneToMany(mappedBy = "article", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private List<Comments> commentsList;
+    private Set<Comments> commentsLst = new HashSet<Comments>();
 
     public Integer getArticleid() {
         return articleid;

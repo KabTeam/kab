@@ -9,11 +9,6 @@ import java.util.List;
 @Repository
 public interface ClassgradeRepository extends JpaRepository<Classgrade,Integer> {
 
-    /**
-     * 获取学校下的所有班级
-     * @param schooleId
-     * @return
-     */
-    public List<Classgrade> findBySchoolId(Integer schooleId);
+
 
 }

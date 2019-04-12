@@ -1,6 +1,9 @@
 package cn.bdqn.kab.pojo;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "PROVINCE")
@@ -19,6 +22,9 @@ public class Province {
     private String custom2;
     @Column(name = "CUSTOM3")
     private String custom3;
+
+    @OneToMany(mappedBy = "province", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private Set<School> schools = new HashSet<School>();
 
     public Integer getProvinceid() {
         return provinceid;
@@ -66,5 +72,13 @@ public class Province {
 
     public void setCustom3(String custom3) {
         this.custom3 = custom3;
+    }
+
+    public Set<School> getSchools() {
+        return schools;
+    }
+
+    public void setSchools(Set<School> schools) {
+        this.schools = schools;
     }
 }

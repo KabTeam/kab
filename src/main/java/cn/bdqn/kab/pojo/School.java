@@ -1,6 +1,10 @@
 package cn.bdqn.kab.pojo;
 
+import org.aspectj.apache.bcel.generic.ClassGen;
+
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "SCHOOL")
@@ -24,6 +28,9 @@ public class School {
     private String custom2;
     @Column(name = "CUSTOM3")
     private String custom3;
+
+    @OneToMany(mappedBy = "school", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private Set<Classgrade> classgrades = new HashSet<Classgrade>();
 
     public Integer getSchoolid() {
         return schoolid;
@@ -79,5 +86,13 @@ public class School {
 
     public void setCustom3(String custom3) {
         this.custom3 = custom3;
+    }
+
+    public Set<Classgrade> getClassgrades() {
+        return classgrades;
+    }
+
+    public void setClassgrades(Set<Classgrade> classgrades) {
+        this.classgrades = classgrades;
     }
 }
