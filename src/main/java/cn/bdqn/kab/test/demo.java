@@ -68,7 +68,7 @@ public class demo {
     @Test
     public void test03(){
         try {
-            Page<Article> lists =articleService.getArticel(1,4);
+            Page<Article> lists =articleService.getArticel(null,1,4);
             for (Article Article: lists.getContent()) {
                 System.out.println(Article.getArticletitle());
             }
@@ -128,4 +128,16 @@ public class demo {
         }
     }
 
+
+    @Test
+    public void test07(){
+        try {
+            Page<Article> lists =articleService.getArticel(1,1,4);
+            for (Article Article: lists.getContent()) {
+                System.out.println(Article.getArticletitle());
+            }
+        }catch (Exception ex){
+            ex.printStackTrace();
+        }
+    }
 }

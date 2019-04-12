@@ -17,14 +17,20 @@ public class Student {
     private Integer gender;
     @Column(name = "AGE")
     private Integer age;
-    @Column(name = "SCHOOLID")
-    private Integer schoolid;
+
+    @ManyToOne()
+    @JoinColumn(name = "SCHOOLID")
+    private School school;
+
     @Column(name = "MAJOR")
     private String major;
     @Column(name = "GRADEID")
     private Integer gradeid;
-    @Column(name = "CUSTOM1")
-    private String custom1;
+
+    @ManyToOne()
+    @JoinColumn(name = "CLASSGRADEID")
+    private Classgrade classGrade;
+
     @Column(name = "CUSTOM2")
     private String custom2;
     @Column(name = "CUSTOM3")
@@ -70,13 +76,7 @@ public class Student {
         this.age = age;
     }
 
-    public Integer getSchoolid() {
-        return schoolid;
-    }
 
-    public void setSchoolid(Integer schoolid) {
-        this.schoolid = schoolid;
-    }
 
     public String getMajor() {
         return major;
@@ -94,12 +94,21 @@ public class Student {
         this.gradeid = gradeid;
     }
 
-    public String getCustom1() {
-        return custom1;
+
+    public School getSchool() {
+        return school;
     }
 
-    public void setCustom1(String custom1) {
-        this.custom1 = custom1;
+    public void setSchool(School school) {
+        this.school = school;
+    }
+
+    public Classgrade getClassGrade() {
+        return classGrade;
+    }
+
+    public void setClassGrade(Classgrade classGrade) {
+        this.classGrade = classGrade;
     }
 
     public String getCustom2() {

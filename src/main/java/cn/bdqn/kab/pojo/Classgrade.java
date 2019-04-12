@@ -13,8 +13,11 @@ public class Classgrade {
     @OneToOne(fetch=FetchType.LAZY)
     @JoinColumn(name="userId")
     private KabUsers kabUsers;
-    @Column(name = "SCHOOLID")
-    private Integer schoolid;
+
+    @ManyToOne()
+    @JoinColumn(name = "SCHOOLID")
+    private School school;
+
     @Column(name = "CLASSGRADETYPEID")
     private Integer classgradetypeid;
     @Column(name = "CLASSGRADESTATUS")
@@ -44,12 +47,12 @@ public class Classgrade {
         this.kabUsers = kabUsers;
     }
 
-    public Integer getSchoolid() {
-        return schoolid;
+    public School getSchool() {
+        return school;
     }
 
-    public void setSchoolid(Integer schoolid) {
-        this.schoolid = schoolid;
+    public void setSchool(School school) {
+        this.school = school;
     }
 
     public Integer getClassgradetypeid() {

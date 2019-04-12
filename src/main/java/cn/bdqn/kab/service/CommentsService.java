@@ -13,7 +13,7 @@ public interface CommentsService {
 
     /**
      * 管理员删除评论
-     * @param comments
+     * @param
      * @return
      */
     public  void deleteComment(Integer commentId);

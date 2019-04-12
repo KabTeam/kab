@@ -6,6 +6,8 @@ import cn.bdqn.kab.service.ClassgradeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service("classgradeService")
 public class ClassgradeServiceImpl implements ClassgradeService {
     @Autowired
@@ -24,5 +26,10 @@ public class ClassgradeServiceImpl implements ClassgradeService {
     @Override
     public Classgrade updateClassGrade(Classgrade classgrade) {
         return classgradeRepository.saveAndFlush(classgrade);
+    }
+
+    @Override
+    public List<Classgrade> getClassgradeBySchoolId(Integer schoolId) {
+        return classgradeRepository.findBySchoolId(schoolId);
     }
 }
