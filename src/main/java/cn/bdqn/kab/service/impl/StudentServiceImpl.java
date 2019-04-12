@@ -19,10 +19,7 @@ public class StudentServiceImpl implements StudentService {
         return studentRepository.save(student);
     }
 
-    @Override
-    public List<Student> getStudentListByClassGradeId(Integer classGradeId) {
-        return studentRepository.findByClassGradeId(classGradeId);
-    }
+
 
     @Override
     public void deleteStudent(List<Integer> stuIds) {

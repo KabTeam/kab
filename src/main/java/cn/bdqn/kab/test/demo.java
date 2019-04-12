@@ -1,13 +1,7 @@
 package cn.bdqn.kab.test;
 
-import cn.bdqn.kab.pojo.Administrator;
-import cn.bdqn.kab.pojo.Article;
-import cn.bdqn.kab.pojo.KabUsers;
-import cn.bdqn.kab.pojo.Member;
-import cn.bdqn.kab.service.AdministratorService;
-import cn.bdqn.kab.service.ArticleService;
-import cn.bdqn.kab.service.CommentsService;
-import cn.bdqn.kab.service.KabUsersService;
+import cn.bdqn.kab.pojo.*;
+import cn.bdqn.kab.service.*;
 import cn.bdqn.kab.service.impl.GradeServiceImpl;
 import cn.bdqn.kab.service.impl.KabUsersServiceImpl;
 import cn.bdqn.kab.service.impl.MemberServiceImpl;
@@ -36,6 +30,8 @@ public class demo {
     private ArticleService articleService;
     @Resource(name="commentsService")
     private CommentsService commentsService;
+    @Resource(name="provinceService")
+    private ProvinceService provinceService;
 
 
     @Test
@@ -138,6 +134,20 @@ public class demo {
             }
         }catch (Exception ex){
             ex.printStackTrace();
+        }
+    }
+
+    @Test
+    public void test08(){
+        List<Province> provinces = provinceService.getAllProvince();
+       for (Province province:provinces){
+            System.out.println(province.getProvincename());
+            for(School school:province.getSchools()){
+                System.out.println(school.getSchoolname());
+                for(Classgrade classgrade:school.getClassgrades()){
+                    System.out.println(classgrade.getClassgradeid());
+                }
+            }
         }
     }
 }

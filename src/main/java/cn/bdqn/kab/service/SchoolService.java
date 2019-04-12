@@ -12,10 +12,5 @@ public interface SchoolService {
      */
     public School addNewSchool(School school);
 
-    /**
-     * 获取省份下的所有学校
-     * @param provinceId
-     * @return
-     */
-    public List<School> getSchoolListByProvinceId(Integer provinceId);
+
 }

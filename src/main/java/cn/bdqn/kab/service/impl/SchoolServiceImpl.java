@@ -18,8 +18,5 @@ public class SchoolServiceImpl implements SchoolService {
         return schoolRepository.save(school);
     }
 
-    @Override
-    public List<School> getSchoolListByProvinceId(Integer provinceId) {
-        return schoolRepository.findByProvinceid(provinceId);
-    }
+
 }

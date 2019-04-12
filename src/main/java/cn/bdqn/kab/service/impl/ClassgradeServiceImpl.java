@@ -28,8 +28,5 @@ public class ClassgradeServiceImpl implements ClassgradeService {
         return classgradeRepository.saveAndFlush(classgrade);
     }
 
-    @Override
-    public List<Classgrade> getClassgradeBySchoolId(Integer schoolId) {
-        return classgradeRepository.findBySchoolId(schoolId);
-    }
+
 }

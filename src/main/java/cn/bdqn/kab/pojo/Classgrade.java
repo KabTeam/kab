@@ -3,6 +3,9 @@ package cn.bdqn.kab.pojo;
 
 import javax.persistence.*;
 import java.sql.Date;
+import java.util.HashSet;
+import java.util.Set;
+
 @Entity
 @Table(name = "CLASSGRADE")
 public class Classgrade {
@@ -30,7 +33,8 @@ public class Classgrade {
     private String custom2;
     @Column(name = "CUSTOM3")
     private String custom3;
-
+    @OneToMany(mappedBy = "studentid", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private Set<Student> students = new HashSet<Student>();
     public Integer getClassgradeid() {
         return classgradeid;
     }
@@ -101,5 +105,13 @@ public class Classgrade {
 
     public void setCustom3(String custom3) {
         this.custom3 = custom3;
+    }
+
+    public Set<Student> getStudents() {
+        return students;
+    }
+
+    public void setStudents(Set<Student> students) {
+        this.students = students;
     }
 }

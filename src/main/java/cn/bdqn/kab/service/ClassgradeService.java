@@ -27,11 +27,6 @@ public interface ClassgradeService {
      */
     public Classgrade updateClassGrade(Classgrade classgrade);
 
-    /**
-     * 获取指定学校下的所有班级
-     * @param schoolId
-     * @return
-     */
-    public List<Classgrade> getClassgradeBySchoolId(Integer schoolId);
+
 
 }
