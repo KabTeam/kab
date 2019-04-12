@@ -1,5 +1,5 @@
 ﻿$axure.loadCurrentPage({
-  "url":"后台登录.html",
+  "url":"backgroundLogin.html",
   "generationDate":new Date(1383013848944.11),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
@@ -350,7 +350,7 @@
                       "description":"在 当前窗口 打开 首页",
                       "target":{
                         "targetType":"page",
-                        "url":"首页.html",
+                        "url":"home.html",
                         "includeVariables":true},
                       "linkType":"current"}]}]}},
           "tabbable":true,
@@ -452,7 +452,7 @@
                       "description":"在 当前窗口 打开 新闻管理",
                       "target":{
                         "targetType":"page",
-                        "url":"新闻管理.html",
+                        "url":"newsManage.html",
                         "includeVariables":true},
                       "linkType":"current"}]}]}},
           "tabbable":true,
