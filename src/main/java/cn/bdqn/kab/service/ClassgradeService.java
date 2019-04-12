@@ -3,6 +3,8 @@ package cn.bdqn.kab.service;
 import cn.bdqn.kab.pojo.Classgrade;
 import org.springframework.data.domain.Page;
 
+import java.util.List;
+
 public interface ClassgradeService {
 
     /**
@@ -24,5 +26,12 @@ public interface ClassgradeService {
      * @return
      */
     public Classgrade updateClassGrade(Classgrade classgrade);
+
+    /**
+     * 获取指定学校下的所有班级
+     * @param schoolId
+     * @return
+     */
+    public List<Classgrade> getClassgradeBySchoolId(Integer schoolId);
 
 }

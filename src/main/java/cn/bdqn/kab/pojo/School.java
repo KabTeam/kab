@@ -11,8 +11,11 @@ public class School {
     private Integer schoolid;
     @Column(name = "USERID")
     private Integer userid;
-    @Column(name = "PROVINCEID")
-    private Integer provinceid;
+
+    @ManyToOne()
+    @JoinColumn(name = "PROVINCEID")
+    private Province province;
+
     @Column(name = "SCHOOLNAME")
     private String schoolname;
     @Column(name = "CUSTOM1")
@@ -38,12 +41,12 @@ public class School {
         this.userid = userid;
     }
 
-    public Integer getProvinceid() {
-        return provinceid;
+    public Province getProvince() {
+        return province;
     }
 
-    public void setProvinceid(Integer provinceid) {
-        this.provinceid = provinceid;
+    public void setProvince(Province province) {
+        this.province = province;
     }
 
     public String getSchoolname() {

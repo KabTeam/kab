@@ -4,6 +4,8 @@ import cn.bdqn.kab.pojo.Article;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
+import java.util.List;
+
 public interface ArticleService {
 
     /**
@@ -24,12 +26,19 @@ public interface ArticleService {
      * 分页查询文章
      * @return
      */
-    public Page<Article> getArticel(Integer currentPage,Integer pageSize);
+    public Page<Article> getArticel(Integer typeId, Integer currentPage, Integer pageSize);
 
     /**
      * 删除指定的文章
      * @param articelId
      */
     public  void deleteArticel(Integer articelId);
+
+    /**
+     * 获取指定的文章
+     * @param id
+     * @return
+     */
+    public Article grtArticleById(Integer id);
 
 }
