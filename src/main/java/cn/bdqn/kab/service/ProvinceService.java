@@ -11,4 +11,11 @@ public interface ProvinceService {
      * @return
      */
     public List<Province> getAllProvince();
+
+    /**
+     * 添加省份
+     * @param province
+     * @return
+     */
+    public Province addNewProvince(Province province);
 }

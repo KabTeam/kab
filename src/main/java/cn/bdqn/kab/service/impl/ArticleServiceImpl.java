@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
@@ -41,7 +42,7 @@ public class ArticleServiceImpl implements ArticleService {
                 return criteriaBuilder.and(_id);
             }
         };
-        Pageable pageable = PageRequest.of(currentPage,pageSize);
+        Pageable pageable = PageRequest.of(currentPage,pageSize, Sort.Direction.DESC,"updatedate");
         if(typeId!=null){
             return articleRepository.findAll(specification, pageable);
 

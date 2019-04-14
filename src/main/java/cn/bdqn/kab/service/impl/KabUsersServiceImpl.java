@@ -37,8 +37,13 @@ public class KabUsersServiceImpl implements KabUsersService {
     }
 
     @Override
-    public Page<KabUsers> getKabUsers(Integer currentPage, Integer pageSize) throws  Exception{
+    public Page<KabUsers> getKabUsersList(Integer currentPage, Integer pageSize) throws  Exception{
         Pageable pageable = PageRequest.of(currentPage,pageSize);
         return kabUsersRepository.findAll(pageable);
+    }
+
+    @Override
+    public KabUsers getKabUsersById(Integer id) throws  Exception{
+        return kabUsersRepository.findByUserId(id);
     }
 }

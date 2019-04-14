@@ -26,7 +26,7 @@ public interface KabUsersService {
     public KabUsers updateKabUserInfo(KabUsers kabUsers)  throws  Exception;
 
     /**
-     * 删除用户信息
+     * 删除用户
      * @param kabUserId
      */
     public void deleteKabUser(Integer kabUserId)throws  Exception;
@@ -37,5 +37,11 @@ public interface KabUsersService {
      * @param pageSize
      * @return
      */
-    public Page<KabUsers> getKabUsers(Integer currentPage,Integer pageSize)throws  Exception;
+    public Page<KabUsers> getKabUsersList(Integer currentPage,Integer pageSize)throws  Exception;
+
+    /**
+     * 根据Id获取用户信息
+     * @return
+     */
+    public KabUsers getKabUsersById(Integer id)throws  Exception;
 }
