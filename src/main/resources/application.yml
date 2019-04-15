@@ -16,10 +16,16 @@ spring:
   ##thymeleaf视图解析器
   thymeleaf:
     mode: LEGACYHTML5
-    encoding: utf-8
+    encoding: UTF-8
     cache: false
     prefix: classpath:/templates/
     suffix: .html
     servlet:
       content-type: text/html
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+
 

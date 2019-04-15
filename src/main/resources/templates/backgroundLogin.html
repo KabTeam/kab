@@ -74,7 +74,7 @@
 
     <!-- Unnamed (文本框(单行)) -->
     <div id="u7" class="ax_文本框_单行_">
-      <input id="u7_input" type="text" value=""/>
+      <input id="u7_input" type="text" value="" name="用户名"/>
     </div>
 
     <!-- Unnamed (形状) -->
@@ -88,7 +88,7 @@
 
     <!-- Unnamed (文本框(单行)) -->
     <div id="u10" class="ax_文本框_单行_">
-      <input id="u10_input" type="password" value=""/>
+      <input id="u10_input" type="password" value="" name="密码"/>
     </div>
 
     <!-- Unnamed (水平线) -->
@@ -136,10 +136,32 @@
   $(function () {
       <!-- 登录按钮的点击事件 -->
       $("#u16").click(function () {
+          $("input[id*='input']").each(function (i,e) {
+            if(e.value==""){
+              alert("请输入"+e.name);
+              return false;
+            }
+          });
           var adminName=$("#u7_input").val();
           var adminPwd=$("#u10_input").val();
-          alert(adminName+"----------"+adminPwd);
+        $.ajax(
+                {
+                  url: '/adminLogin.do',     // 请求地址, 就是你的控制器, 如 test.com/home/index/index
+                  data: { adminName: adminName,adminPwd:adminPwd},   // 需要传送的参数
+                  type: 'POST',   // 请求方式
+                  dataType: 'json', // 返回数据的格式, 通常为JSON
+                  success: function (result) {
+                    if(result.status==2){
+                      alert(result.message);
+                    }else{
+                      location.href="/newsManage";
+                    }
+                  }
+                }
+        );
       });
   })
+
+
 </script>
 </html>
