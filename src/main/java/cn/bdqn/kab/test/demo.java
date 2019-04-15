@@ -106,7 +106,6 @@ public class demo {
             kabUsers.setSecurityAnswer("1");
             kabUsers.setMailBox("asd");
             Member member = new Member();
-            member.setMtypeid(1);
             member.setRealname("1230");
             member.setAcademy("789");
             member.setAtthetime(5);

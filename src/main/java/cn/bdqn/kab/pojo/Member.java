@@ -11,8 +11,6 @@ public class Member {
     @GeneratedValue
     @Column(name = "MID")
     private Integer mid;
-    @Column(name = "MTYPEID")
-    private Integer mtypeid;
     @Column(name = "REALNAME")
     private String realname;
     @Column(name = "ACADEMY")
@@ -52,6 +50,17 @@ public class Member {
     @Column(name = "CUSTOM3")
     private String custom3;
 
+    @OneToOne()
+    @JoinColumn(name="MTYPEID", unique=true)
+    private Membertype memberType;
+
+    public Membertype getMemberType() {
+        return memberType;
+    }
+
+    public void setMemberType(Membertype memberType) {
+        this.memberType = memberType;
+    }
 
     public Integer getMid() {
         return mid;
@@ -59,14 +68,6 @@ public class Member {
 
     public void setMid(Integer mid) {
         this.mid = mid;
-    }
-
-    public Integer getMtypeid() {
-        return mtypeid;
-    }
-
-    public void setMtypeid(Integer mtypeid) {
-        this.mtypeid = mtypeid;
     }
 
     public String getRealname() {
