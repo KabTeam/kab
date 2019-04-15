@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 @Service("noticeService")
@@ -27,7 +28,7 @@ public class NoticeServiceImpl implements NoticeService {
 
     @Override
     public Page<Notice> getNotice(Integer currentPage, Integer pageSize) {
-        Pageable pageable = PageRequest.of(currentPage,pageSize);
+        Pageable pageable = PageRequest.of(currentPage,pageSize, Sort.Direction.DESC,"updatedate");
         return noticeRepository.findAll(pageable);
     }
 

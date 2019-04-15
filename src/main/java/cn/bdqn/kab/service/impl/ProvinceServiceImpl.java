@@ -18,4 +18,9 @@ public class ProvinceServiceImpl implements ProvinceService {
     public List<Province> getAllProvince() {
         return provinceRepository.findAll();
     }
+
+    @Override
+    public Province addNewProvince(Province province) {
+        return provinceRepository.save(province);
+    }
 }

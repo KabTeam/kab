@@ -13,4 +13,12 @@ public interface KabUsersRepository extends JpaRepository<KabUsers,Integer> {
      */
     public KabUsers findByUserName(String userName) throws  Exception;
 
+
+    /**
+     * 根据Id获取用户
+     * @param id
+     * @return
+     */
+    public KabUsers findByUserId(Integer id) throws  Exception;
+
 }
