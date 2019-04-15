@@ -10,7 +10,7 @@
     <link th:href="@{files/修改个人资料/styles.css}" type="text/css" rel="stylesheet"/>
     <script th:src="@{resources/scripts/jquery-1.7.1.min.js}"></script>
     <script th:src="@{resources/scripts/jquery-ui-1.8.10.custom.min.js}"></script>
-    <script th:src="@{resources/scripts/prototype/axQuery.js}"></script>
+    <!--<script th:src="@{resources/scripts/prototype/axQuery.js}"></script>
     <script th:src="@{resources/scripts/prototype/globals.js}"></script>
     <script th:src="@{resources/scripts/axutils.js}"></script>
     <script th:src="@{resources/scripts/prototype/annotation.js}"></script>
@@ -38,7 +38,7 @@
     <script th:src="@{resources/scripts/prototype/init.temp.js}"></script>
     <script th:src="@{files/修改个人资料/data.js}"></script>
     <script th:src="@{resources/scripts/prototype/legacy.js}"></script>
-    <script th:src="@{resources/scripts/prototype/viewer.js}"></script>
+    <script th:src="@{resources/scripts/prototype/viewer.js}"></script>-->
   </head>
   <body>
 
@@ -477,7 +477,7 @@
           <p><span>女</span></p>
         </div>
       </label>
-      <input id="u99_input" type="radio" value="radio" name="u99"/>
+      <input id="u99_input" type="radio" value="radio" name="u97"/>
     </div>
 
     <!-- Unnamed (下拉列表框) -->
@@ -1223,4 +1223,42 @@
       </div>
     </div>
   </body>
+  <script>
+      $(function () {
+
+      })
+      //修改个人资料点击事件
+      $("#u109").click(function () {
+          location.href="modifyPersonalData.html";
+      });
+      //修改密码点击事件
+      $("#u111").click(function () {
+          location.href="modifyPassword.html";
+      });
+      //申请密保点击事件
+      $("#u113").click(function () {
+          location.href="applyEncrypted.html";
+      });
+      //已开班管理点击事件
+      $("#u115").click(function () {
+          location.href="manageClass.html";
+      });
+      //创建新班级点击事件
+      $("#u117").click(function () {
+          location.href="createClass.html";
+      });
+
+      //保存按钮点击事件
+      $("#u102").click(function () {
+          var realname=$("#u91_input").val();
+          var birthday=$("#u141_input").val();
+          var educationbackground=$("#u101_input").val();
+          var idnumber=$("#u92_input").val();
+          var subject=$("#u93_input").val();
+          var major=$("#u140_input").val();
+          var faxnumber=$("#u94_input").val();
+          var mailbox=$("#u95_input").val();
+          var contactaddress=$("#u96_input").val();
+      });
+  </script>
 </html>

@@ -2,14 +2,12 @@ package cn.bdqn.kab.controller;
 
 import cn.bdqn.kab.pojo.KabUsers;
 import cn.bdqn.kab.service.KabUsersService;
-import cn.bdqn.kab.service.impl.KabUsersServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.net.ssl.HttpsURLConnection;
 import javax.servlet.http.HttpSession;
 
 @Controller
@@ -56,13 +54,14 @@ public class KabUsersController {
         KabUsers user=kabUsersService.findByUserName(userName);
         if(user==null){
             model.addAttribute("error","没有改用户!");
+            return "forward:/home.html";
         }else if(!userPwd.equals(user.getUserPwd()) ){
             model.addAttribute("error","密码错误!");
-
+            return "forward:/home.html";
         }else {
             session.setAttribute("kabUser",user);
+            return "redirect:/home.html";
         }
-        return "forward:/home.html";
     }
 
     /**
@@ -135,7 +134,7 @@ public class KabUsersController {
      */
     @ResponseBody
     @RequestMapping("/modifyPersonalData.do")
-    public Object updateUserDo(HttpSession session){
+    public Object updateUserDo(HttpSession session,String realname){
 
         return "";
     }
@@ -147,9 +146,22 @@ public class KabUsersController {
      */
     @ResponseBody
     @RequestMapping("/modifyPassword.do")
-    public Object updateUserPwd(HttpSession session){
+    public Object updateUserPwd(HttpSession session,String oldPwd,String newPwd){
 
-        return "";
+        KabUsers user= (KabUsers) session.getAttribute("kabUser");
+        if(!user.getUserPwd().equals(oldPwd)){
+            return "旧密码输入错误!!";
+        }else{
+            user.setUserPwd(newPwd);
+           try {
+               kabUsersService.updateKabUserInfo(user);
+
+           }catch (Exception e){
+
+           }
+            return "修改成功!";
+        }
+
     }
     /**
      * 申请密保

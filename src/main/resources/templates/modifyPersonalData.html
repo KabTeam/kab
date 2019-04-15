@@ -477,7 +477,7 @@
           <p><span>女</span></p>
         </div>
       </label>
-      <input id="u99_input" type="radio" value="radio" name="u99"/>
+      <input id="u99_input" type="radio" value="radio" name="u97"/>
     </div>
 
     <!-- Unnamed (下拉列表框) -->
@@ -1246,6 +1246,19 @@
       //创建新班级点击事件
       $("#u117").click(function () {
           location.href="createClass.html";
+      });
+
+      //保存按钮点击事件
+      $("#u102").click(function () {
+          var realname=$("#u91_input").val();
+          var birthday=$("#u141_input").val();
+          var educationbackground=$("#u101_input").val();
+          var idnumber=$("#u92_input").val();
+          var subject=$("#u93_input").val();
+          var major=$("#u140_input").val();
+          var faxnumber=$("#u94_input").val();
+          var mailbox=$("#u95_input").val();
+          var contactaddress=$("#u96_input").val();
       });
   </script>
 </html>
