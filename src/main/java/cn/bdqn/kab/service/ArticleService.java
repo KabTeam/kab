@@ -39,6 +39,6 @@ public interface ArticleService {
      * @param id
      * @return
      */
-    public Article grtArticleById(Integer id);
+    public Article getArticleById(Integer id);
 
 }

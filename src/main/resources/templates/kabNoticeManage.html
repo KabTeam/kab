@@ -10,35 +10,35 @@
     <link th:href="@{files/kab公告管理/styles.css}" type="text/css" rel="stylesheet"/>
     <script th:src="@{resources/scripts/jquery-1.7.1.min.js}"></script>
     <script th:src="@{resources/scripts/jquery-ui-1.8.10.custom.min.js}"></script>
-    <script th:src="@{resources/scripts/prototype/axQuery.js}"></script>
-    <script th:src="@{resources/scripts/prototype/globals.js}"></script>
-    <script th:src="@{resources/scripts/axutils.js}"></script>
-    <script th:src="@{resources/scripts/prototype/annotation.js}"></script>
-    <script th:src="@{resources/scripts/prototype/axQuery.std.js}"></script>
-    <script th:src="@{resources/scripts/prototype/doc.js}"></script>
-    <script th:src="@{data/document.js}"></script>
-    <script th:src="@{resources/scripts/messagecenter.js}"></script>
-    <script th:src="@{resources/scripts/prototype/events.js}"></script>
-    <script th:src="@{resources/scripts/prototype/action.js}"></script>
-    <script th:src="@{resources/scripts/prototype/expr.js}"></script>
-    <script th:src="@{resources/scripts/prototype/geometry.js}"></script>
-    <script th:src="@{resources/scripts/prototype/flyout.js}"></script>
-    <script th:src="@{resources/scripts/prototype/ie.js}"></script>
-    <script th:src="@{resources/scripts/prototype/model.js}"></script>
-    <script th:src="@{resources/scripts/prototype/repeater.js}"></script>
-    <script th:src="@{resources/scripts/prototype/sto.js}"></script>
-    <script th:src="@{resources/scripts/prototype/utils.temp.js}"></script>
-    <script th:src="@{resources/scripts/prototype/variables.js}"></script>
-    <script th:src="@{resources/scripts/prototype/drag.js}"></script>
-    <script th:src="@{resources/scripts/prototype/move.js}"></script>
-    <script th:src="@{resources/scripts/prototype/visibility.js}"></script>
-    <script th:src="@{resources/scripts/prototype/style.js}"></script>
-    <script th:src="@{resources/scripts/prototype/adaptive.js}"></script>
-    <script th:src="@{resources/scripts/prototype/tree.js}"></script>
-    <script th:src="@{resources/scripts/prototype/init.temp.js}"></script>
-    <script th:src="@{files/kab公告管理/data.js}"></script>
-    <script th:src="@{resources/scripts/prototype/legacy.js}"></script>
-    <script th:src="@{resources/scripts/prototype/viewer.js}"></script>
+    <!--<script th:src="@{resources/scripts/prototype/axQuery.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/globals.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/axutils.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/annotation.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/axQuery.std.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/doc.js}"></script>-->
+    <!--<script th:src="@{data/document.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/messagecenter.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/events.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/action.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/expr.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/geometry.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/flyout.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/ie.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/model.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/repeater.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/sto.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/utils.temp.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/variables.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/drag.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/move.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/visibility.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/style.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/adaptive.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/tree.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/init.temp.js}"></script>-->
+    <!--<script th:src="@{files/kab公告管理/data.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/legacy.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/viewer.js}"></script>-->
   </head>
   <body>
 
@@ -85,335 +85,39 @@
 
     <!-- Unnamed (表格) -->
     <div id="u10" class="ax_表格">
+      <table border="1" cellspacing="0">
+        <tr>
+          <td id="id">ID</td>
+          <td id="title">标题</td>
+          <td id="modifyDate">更新日期</td>
+          <td id="noticerank">公告级别</td>
+          <td id="operation">操作</td>
+        </tr>
+        <tr th:each="kabNotice : ${kabNoticePage.content}">
+          <td th:text="${kabNotice.noticeid}"></td>
+          <td th:text="${kabNotice.noticetitle}"></td>
+          <td th:text="${kabNotice.updatedate}"></td>
+          <td th:if="${kabNotice.noticerank} Eq 1">
+            一般
+          </td>
+          <td th:if="${kabNotice.noticerank} Eq 2">
+            紧急
+          </td><td th:if="${kabNotice.noticerank} Eq 3">
+            非常紧急
+        </td>
 
-      <!-- Unnamed (表格单元) -->
-      <div id="u11" class="ax_表格单元">
-        <img id="u11_img" class="img " th:src="@{images/新闻管理/u27.png}"/>
-        <!-- Unnamed () -->
-        <div id="u12" class="text">
-          <p><span>ID</span></p>
-        </div>
+          <td>
+            <img th:id="${kabNotice.noticeid}" class="updateNews" src="images/修改个人资料/u46.png" tabindex="0">
+            <img th:id="${kabNotice.noticeid}" class="deleteNews" src="images/管理班级/u89.png" tabindex="0">
+          </td>
+        </tr>
+      </table>
+
       </div>
 
-      <!-- Unnamed (表格单元) -->
-      <div id="u13" class="ax_表格单元">
-        <img id="u13_img" class="img " th:src="@{images/新闻管理/u29.png}"/>
-        <!-- Unnamed () -->
-        <div id="u14" class="text">
-          <p><span>标题</span></p>
-        </div>
-      </div>
 
-      <!-- Unnamed (表格单元) -->
-      <div id="u15" class="ax_表格单元">
-        <img id="u15_img" class="img " th:src="@{images/新闻管理/u31.png}"/>
-        <!-- Unnamed () -->
-        <div id="u16" class="text">
-          <p><span>更新</span><span>日期</span></p>
-        </div>
-      </div>
 
-      <!-- Unnamed (表格单元) -->
-      <div id="u17" class="ax_表格单元">
-        <img id="u17_img" class="img " th:src="@{images/新闻管理/u33.png}"/>
-        <!-- Unnamed () -->
-        <div id="u18" class="text">
-          <p><span>公告级别</span></p>
-        </div>
-      </div>
 
-      <!-- Unnamed (表格单元) -->
-      <div id="u19" class="ax_表格单元">
-        <img id="u19_img" class="img " th:src="@{images/新闻管理/u35.png}"/>
-        <!-- Unnamed () -->
-        <div id="u20" class="text">
-          <p><span>操作</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u21" class="ax_表格单元">
-        <img id="u21_img" class="img " th:src="@{images/新闻管理/u37.png}"/>
-        <!-- Unnamed () -->
-        <div id="u22" class="text">
-          <p><span>1</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u23" class="ax_表格单元">
-        <img id="u23_img" class="img " th:src="@{images/新闻管理/u39.png}"/>
-        <!-- Unnamed () -->
-        <div id="u24" class="text">
-          <p><span>关于申报2013年度“大学生KAB 创业教育基地”和“KAB创业教</span><span>...</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u25" class="ax_表格单元">
-        <img id="u25_img" class="img " th:src="@{images/新闻管理/u41.png}"/>
-        <!-- Unnamed () -->
-        <div id="u26" class="text">
-          <p><span>2013-12-</span><span>1</span><span>4 13:14:42</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u27" class="ax_表格单元">
-        <img id="u27_img" class="img " th:src="@{images/新闻管理/u43.png}"/>
-        <!-- Unnamed () -->
-        <div id="u28" class="text">
-          <p><span>一般</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u29" class="ax_表格单元">
-        <img id="u29_img" class="img " th:src="@{images/新闻管理/u45.png}"/>
-        <!-- Unnamed () -->
-        <div id="u30" class="text"></div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u31" class="ax_表格单元">
-        <img id="u31_img" class="img " th:src="@{images/新闻管理/u47.png}"/>
-        <!-- Unnamed () -->
-        <div id="u32" class="text">
-          <p><span>2</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u33" class="ax_表格单元">
-        <img id="u33_img" class="img " th:src="@{images/新闻管理/u49.png}"/>
-        <!-- Unnamed () -->
-        <div id="u34" class="text">
-          <p><span>继续申报建立KAB创业俱乐部的通知</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u35" class="ax_表格单元">
-        <img id="u35_img" class="img " th:src="@{images/新闻管理/u51.png}"/>
-        <!-- Unnamed () -->
-        <div id="u36" class="text">
-          <p><span>2013-12-</span><span>7</span><span> 13:14:42</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u37" class="ax_表格单元">
-        <img id="u37_img" class="img " th:src="@{images/新闻管理/u53.png}"/>
-        <!-- Unnamed () -->
-        <div id="u38" class="text">
-          <p><span>紧急</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u39" class="ax_表格单元">
-        <img id="u39_img" class="img " th:src="@{images/新闻管理/u55.png}"/>
-        <!-- Unnamed () -->
-        <div id="u40" class="text"></div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u41" class="ax_表格单元">
-        <img id="u41_img" class="img " th:src="@{images/新闻管理/u37.png}"/>
-        <!-- Unnamed () -->
-        <div id="u42" class="text">
-          <p><span>3</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u43" class="ax_表格单元">
-        <img id="u43_img" class="img " th:src="@{images/新闻管理/u39.png}"/>
-        <!-- Unnamed () -->
-        <div id="u44" class="text">
-          <p><span>KAB俱乐部杭州沙龙活动报到通知</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u45" class="ax_表格单元">
-        <img id="u45_img" class="img " th:src="@{images/新闻管理/u41.png}"/>
-        <!-- Unnamed () -->
-        <div id="u46" class="text">
-          <p><span>2013-12-4 </span><span>1</span><span>5:</span><span>14:</span><span>33</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u47" class="ax_表格单元">
-        <img id="u47_img" class="img " th:src="@{images/新闻管理/u43.png}"/>
-        <!-- Unnamed () -->
-        <div id="u48" class="text">
-          <p><span>非常紧急</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u49" class="ax_表格单元">
-        <img id="u49_img" class="img " th:src="@{images/新闻管理/u45.png}"/>
-        <!-- Unnamed () -->
-        <div id="u50" class="text"></div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u51" class="ax_表格单元">
-        <img id="u51_img" class="img " th:src="@{images/新闻管理/u67.png}"/>
-        <!-- Unnamed () -->
-        <div id="u52" class="text">
-          <p><span>4</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u53" class="ax_表格单元">
-        <img id="u53_img" class="img " th:src="@{images/新闻管理/u69.png}"/>
-        <!-- Unnamed () -->
-        <div id="u54" class="text">
-          <p><span>KAB创业俱乐部杭州沙龙活动通知</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u55" class="ax_表格单元">
-        <img id="u55_img" class="img " th:src="@{images/新闻管理/u71.png}"/>
-        <!-- Unnamed () -->
-        <div id="u56" class="text">
-          <p><span>2013-12-4 13:14:</span><span>54</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u57" class="ax_表格单元">
-        <img id="u57_img" class="img " th:src="@{images/新闻管理/u73.png}"/>
-        <!-- Unnamed () -->
-        <div id="u58" class="text">
-          <p><span>紧急</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (表格单元) -->
-      <div id="u59" class="ax_表格单元">
-        <img id="u59_img" class="img " th:src="@{images/新闻管理/u75.png}"/>
-        <!-- Unnamed () -->
-        <div id="u60" class="text"></div>
-      </div>
-    </div>
-
-    <!-- Unnamed (形状) -->
-    <div id="u61" class="ax_文本">
-      <img id="u61_img" class="img " th:src="@{resources/images/transparent.gif}"/>
-      <!-- Unnamed () -->
-      <div id="u62" class="text">
-        <p><span style="text-decoration:underline;">1</span></p>
-      </div>
-    </div>
-
-    <!-- Unnamed (形状) -->
-    <div id="u63" class="ax_文本">
-      <img id="u63_img" class="img " th:src="@{resources/images/transparent.gif}"/>
-      <!-- Unnamed () -->
-      <div id="u64" class="text">
-        <p><span style="text-decoration:underline;">2</span></p>
-      </div>
-    </div>
-
-    <!-- Unnamed (形状) -->
-    <div id="u65" class="ax_文本">
-      <img id="u65_img" class="img " th:src="@{resources/images/transparent.gif}"/>
-      <!-- Unnamed () -->
-      <div id="u66" class="text">
-        <p><span style="text-decoration:underline;">3</span></p>
-      </div>
-    </div>
-
-    <!-- Unnamed (形状) -->
-    <div id="u67" class="ax_文本">
-      <img id="u67_img" class="img " th:src="@{resources/images/transparent.gif}"/>
-      <!-- Unnamed () -->
-      <div id="u68" class="text">
-        <p><span style="text-decoration:underline;">4</span></p>
-      </div>
-    </div>
-
-    <!-- Unnamed (形状) -->
-    <div id="u69" class="ax_文本">
-      <img id="u69_img" class="img " th:src="@{resources/images/transparent.gif}"/>
-      <!-- Unnamed () -->
-      <div id="u70" class="text">
-        <p><span style="text-decoration:underline;">5</span></p>
-      </div>
-    </div>
-
-    <!-- Unnamed (形状) -->
-    <div id="u71" class="ax_文本">
-      <img id="u71_img" class="img " th:src="@{resources/images/transparent.gif}"/>
-      <!-- Unnamed () -->
-      <div id="u72" class="text">
-        <p><span style="text-decoration:underline;">6</span></p>
-      </div>
-    </div>
-
-    <!-- Unnamed (形状) -->
-    <div id="u73" class="ax_文本">
-      <img id="u73_img" class="img " th:src="@{resources/images/transparent.gif}"/>
-      <!-- Unnamed () -->
-      <div id="u74" class="text">
-        <p><span style="text-decoration:underline;">7</span></p>
-      </div>
-    </div>
-
-    <!-- Unnamed (形状) -->
-    <div id="u75" class="ax_文本">
-      <img id="u75_img" class="img " th:src="@{resources/images/transparent.gif}"/>
-      <!-- Unnamed () -->
-      <div id="u76" class="text">
-        <p><span style="text-decoration:underline;">8</span></p>
-      </div>
-    </div>
-
-    <!-- Unnamed (形状) -->
-    <div id="u77" class="ax_文本">
-      <img id="u77_img" class="img " th:src="@{resources/images/transparent.gif}"/>
-      <!-- Unnamed () -->
-      <div id="u78" class="text">
-        <p><span style="text-decoration:underline;">9</span></p>
-      </div>
-    </div>
-
-    <!-- Unnamed (形状) -->
-    <div id="u79" class="ax_形状">
-      <img id="u79_img" class="img " th:src="@{images/kab公告/u99.png}"/>
-      <!-- Unnamed () -->
-      <div id="u80" class="text"></div>
-    </div>
-
-    <!-- Unnamed (形状) -->
-    <div id="u81" class="ax_文本">
-      <img id="u81_img" class="img " th:src="@{resources/images/transparent.gif}"/>
-      <!-- Unnamed () -->
-      <div id="u82" class="text">
-        <p><span style="text-decoration:underline;">Next</span></p>
-      </div>
-    </div>
-
-    <!-- Unnamed (图片) -->
-    <div id="u83" class="ax_图片">
-      <img id="u83_img" class="img " th:src="@{images/修改个人资料/u46.png}"/>
-      <!-- Unnamed () -->
-      <div id="u84" class="text"></div>
-    </div>
-
-    <!-- Unnamed (图片) -->
-    <div id="u85" class="ax_图片">
-      <img id="u85_img" class="img " th:src="@{images/管理班级/u89.png}"/>
-      <!-- Unnamed () -->
-      <div id="u86" class="text"></div>
-    </div>
 
     <!-- Unnamed (形状) -->
     <div id="u87" class="ax_形状">
@@ -494,47 +198,6 @@
       </div>
     </div>
 
-    <!-- Unnamed (图片) -->
-    <div id="u105" class="ax_图片">
-      <img id="u105_img" class="img " th:src="@{images/修改个人资料/u46.png}"/>
-      <!-- Unnamed () -->
-      <div id="u106" class="text"></div>
-    </div>
-
-    <!-- Unnamed (图片) -->
-    <div id="u107" class="ax_图片">
-      <img id="u107_img" class="img " th:src="@{images/管理班级/u89.png}"/>
-      <!-- Unnamed () -->
-      <div id="u108" class="text"></div>
-    </div>
-
-    <!-- Unnamed (图片) -->
-    <div id="u109" class="ax_图片">
-      <img id="u109_img" class="img " th:src="@{images/修改个人资料/u46.png}"/>
-      <!-- Unnamed () -->
-      <div id="u110" class="text"></div>
-    </div>
-
-    <!-- Unnamed (图片) -->
-    <div id="u111" class="ax_图片">
-      <img id="u111_img" class="img " th:src="@{images/管理班级/u89.png}"/>
-      <!-- Unnamed () -->
-      <div id="u112" class="text"></div>
-    </div>
-
-    <!-- Unnamed (图片) -->
-    <div id="u113" class="ax_图片">
-      <img id="u113_img" class="img " th:src="@{images/修改个人资料/u46.png}"/>
-      <!-- Unnamed () -->
-      <div id="u114" class="text"></div>
-    </div>
-
-    <!-- Unnamed (图片) -->
-    <div id="u115" class="ax_图片">
-      <img id="u115_img" class="img " th:src="@{images/管理班级/u89.png}"/>
-      <!-- Unnamed () -->
-      <div id="u116" class="text"></div>
-    </div>
 
     <!-- Unnamed (形状) -->
     <div id="u117" class="ax_文本">
@@ -635,4 +298,15 @@
       </div>
     </div>
   </body>
+<script>
+  $("#u125").click(function () {
+    location.href="/newsManage";
+  });
+  $("#u127").click(function () {
+    location.href="/kabSsurveyManage";
+  });
+  $("#u129").click(function () {
+    location.href="/classManage";
+  });
+</script>
 </html>

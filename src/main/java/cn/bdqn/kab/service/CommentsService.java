@@ -1,6 +1,8 @@
 package cn.bdqn.kab.service;
 
+import cn.bdqn.kab.pojo.Article;
 import cn.bdqn.kab.pojo.Comments;
+import org.springframework.data.domain.Page;
 
 public interface CommentsService {
 
@@ -17,4 +19,10 @@ public interface CommentsService {
      * @return
      */
     public  void deleteComment(Integer commentId);
+
+    /**
+     * 分页查询评论
+     * @return
+     */
+    public Page<Comments> getArticel(Integer articleId, Integer currentPage, Integer pageSize);
 }

@@ -40,6 +40,14 @@ public class Article {
     @OneToMany(mappedBy = "article", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private Set<Comments> commentsLst = new HashSet<Comments>();
 
+    public Set<Comments> getCommentsLst() {
+        return commentsLst;
+    }
+
+    public void setCommentsLst(Set<Comments> commentsLst) {
+        this.commentsLst = commentsLst;
+    }
+
     public Integer getArticleid() {
         return articleid;
     }

@@ -870,9 +870,8 @@
 #u77 {
   position:absolute;
   left:646px;
-  top:444px;
-  width:10px;
-  height:16px;
+  top:400px;
+
   text-decoration:underline;
   color:#868686;
   text-align:center;
@@ -1320,7 +1319,7 @@
 #u116 {
   position:absolute;
   left:0px;
-  top:0px;
+  top:80px;
   width:347px;
   white-space:nowrap;
 }
@@ -1849,4 +1848,53 @@
   top:7px;
   width:74px;
   word-wrap:break-word;
+}
+tr{
+  height: 39px;
+}
+#id{
+  width:97px;
+}
+#title{
+  width: 412px;
+}
+#modifyDate{
+  width: 135px;
+}
+#eliteRecommend{
+  width: 110px;
+}
+#operation{
+  width: 163px;
+}
+td{
+  font-family: 'Arial Normal', 'Arial';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: #333333;
+}
+.operation_img{
+  margin: 0 10px;
+}
+
+#u77 ul{
+  list-style:none; /* 去掉ul前面的符号 */
+}
+
+#u77 ul li{
+  display: inline-block;
+  margin-left: 15px;
+
+}
+
+#u77 ul li a{
+  text-decoration: underline;
+}
+
+.commentManage{
+  margin-right: 20px;
+}
+.deleteNews{
+  margin-left: 20px;
 }

@@ -1560,3 +1560,18 @@
   visibility:hidden;
   word-wrap:break-word;
 }
+#id{
+  width: 111px;
+}
+tr{
+  height: 39px
+}
+#commContent{
+  width: 469px;
+}
+#commDate{
+  width: 154px;
+}
+#operation{
+  width: 185px;
+}

@@ -10,35 +10,35 @@
     <link th:href="@{files/kab概况管理/styles.css}" type="text/css" rel="stylesheet"/>
     <script th:src="@{resources/scripts/jquery-1.7.1.min.js}"></script>
     <script th:src="@{resources/scripts/jquery-ui-1.8.10.custom.min.js}"></script>
-    <script th:src="@{resources/scripts/prototype/axQuery.js}"></script>
-    <script th:src="@{resources/scripts/prototype/globals.js}"></script>
-    <script th:src="@{resources/scripts/axutils.js}"></script>
-    <script th:src="@{resources/scripts/prototype/annotation.js}"></script>
-    <script th:src="@{resources/scripts/prototype/axQuery.std.js}"></script>
-    <script th:src="@{resources/scripts/prototype/doc.js}"></script>
-    <script th:src="@{data/document.js}"></script>
-    <script th:src="@{resources/scripts/messagecenter.js}"></script>
-    <script th:src="@{resources/scripts/prototype/events.js}"></script>
-    <script th:src="@{resources/scripts/prototype/action.js}"></script>
-    <script th:src="@{resources/scripts/prototype/expr.js}"></script>
-    <script th:src="@{resources/scripts/prototype/geometry.js}"></script>
-    <script th:src="@{resources/scripts/prototype/flyout.js}"></script>
-    <script th:src="@{resources/scripts/prototype/ie.js}"></script>
-    <script th:src="@{resources/scripts/prototype/model.js}"></script>
-    <script th:src="@{resources/scripts/prototype/repeater.js}"></script>
-    <script th:src="@{resources/scripts/prototype/sto.js}"></script>
-    <script th:src="@{resources/scripts/prototype/utils.temp.js}"></script>
-    <script th:src="@{resources/scripts/prototype/variables.js}"></script>
-    <script th:src="@{resources/scripts/prototype/drag.js}"></script>
-    <script th:src="@{resources/scripts/prototype/move.js}"></script>
-    <script th:src="@{resources/scripts/prototype/visibility.js}"></script>
-    <script th:src="@{resources/scripts/prototype/style.js}"></script>
-    <script th:src="@{resources/scripts/prototype/adaptive.js}"></script>
-    <script th:src="@{resources/scripts/prototype/tree.js}"></script>
-    <script th:src="@{resources/scripts/prototype/init.temp.js}"></script>
-    <script th:src="@{files/kab概况管理/data.js}"></script>
-    <script th:src="@{resources/scripts/prototype/legacy.js}"></script>
-    <script th:src="@{resources/scripts/prototype/viewer.js}"></script>
+    <!--<script th:src="@{resources/scripts/prototype/axQuery.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/globals.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/axutils.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/annotation.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/axQuery.std.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/doc.js}"></script>-->
+    <!--<script th:src="@{data/document.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/messagecenter.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/events.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/action.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/expr.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/geometry.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/flyout.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/ie.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/model.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/repeater.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/sto.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/utils.temp.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/variables.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/drag.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/move.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/visibility.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/style.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/adaptive.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/tree.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/init.temp.js}"></script>-->
+    <!--<script th:src="@{files/kab概况管理/data.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/legacy.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/viewer.js}"></script>-->
   </head>
   <body>
 
@@ -238,7 +238,7 @@
 
     <!-- Unnamed (文本框(单行)) -->
     <div id="u43" class="ax_文本框_单行_">
-      <input id="u43_input" type="text" value="KAB概况"/>
+      <input id="u43_input" type="text" th:value="${kabSsurvey.articletitle}"/>
     </div>
 
     <!-- Unnamed (形状) -->
@@ -252,12 +252,12 @@
 
     <!-- Unnamed (文本框(单行)) -->
     <div id="u46" class="ax_文本框_单行_">
-      <input id="u46_input" type="text" value="admin"/>
+      <input id="u46_input" type="text" th:value="${kabSsurvey.articleauthor}"/>
     </div>
 
     <!-- Unnamed (文本框(多行)) -->
     <div id="u47" class="ax_文本框_多行_">
-      <textarea id="u47_input">&nbsp; &nbsp; KAB创业教育项目目前已在全球30多个国家开展。其核心内容是国际劳工组织为培养大中学生的创业意识和创业能力而专门开发的课程体系，与已经在各国广泛实施的“创办和改善你的企业”项目（SIYB项目）共同构成一个完整的创业培训体系。该课程一般以选修课的形式在大学开展，学生通过选修该课程可以获得相应的学分。围绕该课程，学生还可以参加KAB创业俱乐部、创业大讲堂等课外实践活动。通过教授和操练有关企业和创业的基本知识和技能，该项目帮助学生对创业树立全面认识和体验，切实提高其创业意识和创业能.</textarea>
+      <textarea id="u47_input" th:text="${kabSsurvey.articlecontent}"></textarea>
     </div>
 
     <!-- Unnamed (形状) -->
@@ -353,4 +353,24 @@
       <div id="u69" class="text"></div>
     </div>
   </body>
+  <script>
+      $("#u16").click(function () {
+        location.href="/businessInformationManage";
+      });
+      $("#u1").click(function () {
+        location.href="newsManage"
+      });
+      $("#u18").click(function () {
+        location.href="/kabCourseReferraManage";
+      });
+      $("#u20").click(function () {
+        location.href="/singlePageManage";
+      });
+      $("#u3").click(function () {
+        location.href="/kabNoticeManage";
+      });
+      $("#u5").click(function () {
+        location.href="/classManage";
+      });
+  </script>
 </html>

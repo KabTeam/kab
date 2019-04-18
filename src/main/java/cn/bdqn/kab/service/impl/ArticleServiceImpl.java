@@ -59,7 +59,7 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     @Override
-    public Article grtArticleById(Integer id) {
+    public Article getArticleById(Integer id) {
         return articleRepository.findByArticleid(id);
     }
 }

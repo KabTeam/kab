@@ -10,35 +10,35 @@
     <link th:href="@{files/单页管理/styles.css}" type="text/css" rel="stylesheet"/>
     <script th:src="@{resources/scripts/jquery-1.7.1.min.js}"></script>
     <script th:src="@{resources/scripts/jquery-ui-1.8.10.custom.min.js}"></script>
-    <script th:src="@{resources/scripts/prototype/axQuery.js}"></script>
-    <script th:src="@{resources/scripts/prototype/globals.js}"></script>
-    <script th:src="@{resources/scripts/axutils.js}"></script>
-    <script th:src="@{resources/scripts/prototype/annotation.js}"></script>
-    <script th:src="@{resources/scripts/prototype/axQuery.std.js}"></script>
-    <script th:src="@{resources/scripts/prototype/doc.js}"></script>
-    <script th:src="@{data/document.js}"></script>
-    <script th:src="@{resources/scripts/messagecenter.js}"></script>
-    <script th:src="@{resources/scripts/prototype/events.js}"></script>
-    <script th:src="@{resources/scripts/prototype/action.js}"></script>
-    <script th:src="@{resources/scripts/prototype/expr.js}"></script>
-    <script th:src="@{resources/scripts/prototype/geometry.js}"></script>
-    <script th:src="@{resources/scripts/prototype/flyout.js}"></script>
-    <script th:src="@{resources/scripts/prototype/ie.js}"></script>
-    <script th:src="@{resources/scripts/prototype/model.js}"></script>
-    <script th:src="@{resources/scripts/prototype/repeater.js}"></script>
-    <script th:src="@{resources/scripts/prototype/sto.js}"></script>
-    <script th:src="@{resources/scripts/prototype/utils.temp.js}"></script>
-    <script th:src="@{resources/scripts/prototype/variables.js}"></script>
-    <script th:src="@{resources/scripts/prototype/drag.js}"></script>
-    <script th:src="@{resources/scripts/prototype/move.js}"></script>
-    <script th:src="@{resources/scripts/prototype/visibility.js}"></script>
-    <script th:src="@{resources/scripts/prototype/style.js}"></script>
-    <script th:src="@{resources/scripts/prototype/adaptive.js}"></script>
-    <script th:src="@{resources/scripts/prototype/tree.js}"></script>
-    <script th:src="@{resources/scripts/prototype/init.temp.js}"></script>
-    <script th:src="@{files/单页管理/data.js}"></script>
-    <script th:src="@{resources/scripts/prototype/legacy.js}"></script>
-    <script th:src="@{resources/scripts/prototype/viewer.js}"></script>
+    <!--<script th:src="@{resources/scripts/prototype/axQuery.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/globals.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/axutils.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/annotation.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/axQuery.std.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/doc.js}"></script>-->
+    <!--<script th:src="@{data/document.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/messagecenter.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/events.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/action.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/expr.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/geometry.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/flyout.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/ie.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/model.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/repeater.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/sto.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/utils.temp.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/variables.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/drag.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/move.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/visibility.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/style.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/adaptive.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/tree.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/init.temp.js}"></script>-->
+    <!--<script th:src="@{files/单页管理/data.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/legacy.js}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/viewer.js}"></script>-->
   </head>
   <body>
 
@@ -1025,4 +1025,25 @@
       </div>
     </div>
   </body>
+<script>
+  $("#u1").click(function () {
+    location.href="/newsManage";
+  });
+  $("#u18").click(function () {
+    location.href="/kabCourseReferraManage";
+  });
+  $("#u16").click(function () {
+    location.href="/businessInformationManage";
+  });
+  $("#u14").click(function () {
+    location.href="/kabSsurveyManage";
+  });
+
+  $("#u4").click(function () {
+    location.href="/kabNoticeManage";
+  });
+  $("#u6").click(function () {
+    location.href="/classManage";
+  });
+</script>
 </html>

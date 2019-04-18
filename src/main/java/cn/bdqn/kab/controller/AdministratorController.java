@@ -55,8 +55,5 @@ public class AdministratorController {
         return map;
     }
 
-    @RequestMapping("/newsManage")
-    public String newsManage(){
-        return "newsManage";
-    }
+
 }

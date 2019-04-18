@@ -1,13 +1,13 @@
 ﻿<!DOCTYPE html>
 <html xmlns:th="https://www.thymeleaf.org">
   <head>
-    <title>创业资讯管理</title>
+    <title>KAB课程介绍管理</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <link th:href="@{resources/css/jquery-ui-themes.css}" type="text/css" rel="stylesheet"/>
     <link th:href="@{resources/css/axure_rp_page.css}" type="text/css" rel="stylesheet"/>
     <link th:href="@{data/styles.css}" type="text/css" rel="stylesheet"/>
-    <link th:href="@{files/创业资讯管理/styles.css}" type="text/css" rel="stylesheet"/>
+    <link th:href="@{files/kab课程介绍管理/styles.css}" type="text/css" rel="stylesheet"/>
     <script th:src="@{resources/scripts/jquery-1.7.1.min.js}"></script>
     <script th:src="@{resources/scripts/jquery-ui-1.8.10.custom.min.js}"></script>
     <!--<script th:src="@{resources/scripts/prototype/axQuery.js}"></script>-->
@@ -15,7 +15,7 @@
     <!--<script th:src="@{resources/scripts/axutils.js}"></script>-->
     <!--<script th:src="@{resources/scripts/prototype/annotation.js}"></script>-->
     <!--<script th:src="@{resources/scripts/prototype/axQuery.std.js}"></script>-->
-    <!--<script th:src="@{resources/scripts/prototype/doc.}"></script>-->
+    <!--<script th:src="@{resources/scripts/prototype/doc.js}"></script>-->
     <!--<script th:src="@{data/document.js}"></script>-->
     <!--<script th:src="@{resources/scripts/messagecenter.js}"></script>-->
     <!--<script th:src="@{resources/scripts/prototype/events.js}"></script>-->
@@ -36,7 +36,7 @@
     <!--<script th:src="@{resources/scripts/prototype/adaptive.js}"></script>-->
     <!--<script th:src="@{resources/scripts/prototype/tree.js}"></script>-->
     <!--<script th:src="@{resources/scripts/prototype/init.temp.js}"></script>-->
-    <!--<script th:src="@{files/创业资讯管理/data.js}"></script>-->
+    <!--<script th:src="@{files/kab课程介绍管理/data.js}"></script>-->
     <!--<script th:src="@{resources/scripts/prototype/legacy.js}"></script>-->
     <!--<script th:src="@{resources/scripts/prototype/viewer.js}"></script>-->
   </head>
@@ -94,33 +94,37 @@
           <td id="eliteRecommend">是否推荐</td>
           <td id="operation">操作</td>
         </tr>
-        <tr th:each="businessInformation : ${businessInformationPage.content}">
-          <td th:text="${businessInformation.articleid}"></td>
-          <td th:text="${businessInformation.articletitle}"></td>
-          <td th:text="${businessInformation.updatedate}"></td>
-          <td th:if="${businessInformation.isrecommend} Eq 1">
-            <input th:id="${businessInformation.articleid}"  type="checkbox" value="checkbox" checked="true">
+        <tr th:each="kabCourseReferra : ${kabCourseReferraPage.content}">
+          <td th:text="${kabCourseReferra.articleid}"></td>
+          <td th:text="${kabCourseReferra.articletitle}"></td>
+          <td th:text="${kabCourseReferra.updatedate}"></td>
+          <td th:if="${kabCourseReferra.isrecommend} Eq 1">
+            <input th:id="${kabCourseReferra.articleid}"  type="checkbox" value="checkbox" checked="true">
           </td>
-          <td th:if="${businessInformation.isrecommend} Eq 0">
-            <input th:id="${businessInformation.articleid}"  type="checkbox" value="checkbox">
+          <td th:if="${kabCourseReferra.isrecommend} Eq 0">
+            <input th:id="${kabCourseReferra.articleid}"  type="checkbox" value="checkbox">
           </td>
           <td>
-            <img th:id="${businessInformation.articleid}" class="updateNews" src="images/修改个人资料/u46.png" tabindex="0">
-            <img th:id="${businessInformation.articleid}" class="deleteNews" src="images/管理班级/u89.png" tabindex="0">
+            <img th:id="${kabCourseReferra.articleid}" class="updateNews" src="images/修改个人资料/u46.png" tabindex="0">
+            <img th:id="${kabCourseReferra.articleid}" class="deleteNews" src="images/管理班级/u89.png" tabindex="0">
           </td>
         </tr>
       </table>
     </div>
 
+
+
+
+
+
     <!-- Unnamed (形状) -->
-    <div id="u95" class="ax_形状" style="cursor: pointer;">
-      <img id="u95_img" class="img " src="images/创业资讯管理/u95.png" tabindex="0">
+    <div id="u95" class="ax_形状">
+      <img id="u95_img" class="img " th:src="@{images/kab课程介绍管理/u95.png}"/>
       <!-- Unnamed () -->
-      <div id="u96" class="text" style="top: 4px;">
-        <p><span>+ </span><span>添加</span><span>创业咨询</span></p>
+      <div id="u96" class="text">
+        <p><span>+ </span><span>添加</span><span>KAB课程介绍</span></p>
       </div>
     </div>
-
 
     <!-- confirm (动态面板) -->
     <div id="u97" class="ax_动态面板" data-label="confirm">
@@ -170,7 +174,7 @@
           <img id="u107_img" class="img " th:src="@{resources/images/transparent.gif}"/>
           <!-- Unnamed () -->
           <div id="u108" class="text">
-            <p><span>确定删除该</span><span>资讯</span><span>吗？</span></p>
+            <p><span>确定删除该</span><span>课程介绍</span><span>吗？</span></p>
           </div>
         </div>
 
@@ -200,7 +204,6 @@
         <p><span>注释：点击“是否推荐”一栏的选择框立即生效，打钩表示推荐</span></p>
       </div>
     </div>
-
 
 
     <!-- Unnamed (形状) -->
@@ -233,7 +236,7 @@
       <img id="u133_img" class="img " th:src="@{resources/images/transparent.gif}"/>
       <!-- Unnamed () -->
       <div id="u134" class="text">
-        <p><span>创业资讯</span><span>列表</span></p>
+        <p><span>KAB课程介绍</span></p>
       </div>
     </div>
 
@@ -348,22 +351,23 @@
     </div>
   </body>
 <script>
+  $("#u152").click(function () {
+    location.href="/businessInformationManage";
+  });
   $("#u150").click(function () {
-    location.href="/kabSsurveyManage"
+    location.href="/kabSsurveyManage";
   });
-  $("#u138").click(function () {
-    location.href="/newsManage"
-  });
-
-  $("#u154").click(function () {
-    location.href="/kabCourseReferraManage";
+  $("#u137").click(function () {
+    location.href="/newsManage";
   });
   $("#u156").click(function () {
     location.href="/singlePageManage";
   });
+
   $("#u139").click(function () {
     location.href="/kabNoticeManage";
   });
+
   $("#u141").click(function () {
     location.href="/classManage";
   });

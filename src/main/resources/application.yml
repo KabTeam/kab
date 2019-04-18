@@ -8,9 +8,10 @@ spring:
     database: oracle
     hibernate:
       ddl-auto: update
+    show-sql: true
   datasource:
     driver-class-name: oracle.jdbc.driver.OracleDriver
-    url: jdbc:oracle:thin:@localhost:1521:oracle
+    url: jdbc:oracle:thin:@localhost:1521:orcl
     username: kab
     password: 123456
   ##thymeleaf视图解析器
