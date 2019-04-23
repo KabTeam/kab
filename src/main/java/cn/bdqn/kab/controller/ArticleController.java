@@ -26,8 +26,14 @@ public class ArticleController {
      * @return
      */
     @RequestMapping("/newsManage")
-    public String newsManage(Model model){
-        Page<Article> newsPage = articleService.getArticel(1,0,4);
+    public String newsManage(Model model,@RequestParam(value = "pageNo",required = false) Integer pageNo){
+        if(pageNo==null){
+            pageNo=0;
+        }
+        if(pageNo>0){
+            pageNo--;
+        }
+        Page<Article> newsPage = articleService.getArticel(1,pageNo,4);
         model.addAttribute("newsPage",newsPage);
         return "newsManage";
     }
@@ -67,6 +73,7 @@ public class ArticleController {
      */
     @RequestMapping("/kabSsurveyManage")
     public String kabSsurveyManage(Model model){
+
         Page<Article> kabSsurveyPage = articleService.getArticel(2,0,4);
         Article kabSsurvey = kabSsurveyPage.getContent().get(0);
         model.addAttribute("kabSsurvey",kabSsurvey);
@@ -79,8 +86,14 @@ public class ArticleController {
      * @return
      */
     @RequestMapping("/businessInformationManage")
-    public String businessInformationManage(Model model){
-        Page<Article> businessInformationPage = articleService.getArticel(3,0,4);
+    public String businessInformationManage(Model model,@RequestParam(value = "pageNo",required = false) Integer pageNo){
+        if(pageNo==null){
+            pageNo=0;
+        }
+        if(pageNo>0){
+            pageNo--;
+        }
+        Page<Article> businessInformationPage = articleService.getArticel(3,pageNo,4);
         model.addAttribute("businessInformationPage",businessInformationPage);
         return "businessInformationManage";
     }
@@ -91,8 +104,14 @@ public class ArticleController {
      * @return
      */
     @RequestMapping("/kabCourseReferraManage")
-    public String kabCourseReferraManage(Model model){
-        Page<Article> kabCourseReferraPage = articleService.getArticel(4,0,4);
+    public String kabCourseReferraManage(Model model,@RequestParam(value = "pageNo",required = false) Integer pageNo){
+        if(pageNo==null){
+            pageNo=0;
+        }
+        if(pageNo>0){
+            pageNo--;
+        }
+        Page<Article> kabCourseReferraPage = articleService.getArticel(4,pageNo,4);
         model.addAttribute("kabCourseReferraPage",kabCourseReferraPage);
         return "kabCourseReferralManage";
     }
@@ -107,5 +126,16 @@ public class ArticleController {
         Page<Article> singlePage = articleService.getArticel(5,0,4);
         model.addAttribute("singlePage",singlePage);
         return "singlePageManage";
+    }
+
+    /**
+     * 跳转到修改新闻页面
+     * @return
+     */
+    @RequestMapping("/modifyNews")
+    public String modifyNews(Model model,@RequestParam("id") Integer id){
+        Article article = articleService.getArticleById(id);
+        model.addAttribute("article",article);
+        return "modifyNews";
     }
 }

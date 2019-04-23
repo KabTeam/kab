@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpSession;
+import javax.xml.ws.RequestWrapper;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -56,4 +57,8 @@ public class AdministratorController {
     }
 
 
+    @RequestMapping("/adminModifyPassword")
+    public String adminModifyPassword(){
+        return "modifyPassword_1";
+    }
 }

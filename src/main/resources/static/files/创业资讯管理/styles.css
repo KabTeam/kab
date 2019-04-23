@@ -684,8 +684,6 @@
   position:absolute;
   left:646px;
   top:444px;
-  width:10px;
-  height:16px;
   text-decoration:underline;
   color:#868686;
   text-align:center;
@@ -1837,4 +1835,17 @@ td{
 }
 .deleteNews{
   margin-left: 8px;
+}
+#u61 ul{
+  list-style:none; /* 去掉ul前面的符号 */
+}
+
+#u61 ul li{
+  display: inline-block;
+  margin-left: 15px;
+
+}
+
+#u61 ul li a{
+  text-decoration: underline;
 }

@@ -125,6 +125,13 @@
         <p><span>+ </span><span>添加</span><span>KAB课程介绍</span></p>
       </div>
     </div>
+    <div id="u77" class="ax_文本">
+      <ul>
+        <li class="pageNo" th:each="i: ${#numbers.sequence(1, kabCourseReferraPage.totalPages)}">
+          <a href="javascript:(0);" th:text="${i}"></a>
+        </li>
+      </ul>
+    </div>
 
     <!-- confirm (动态面板) -->
     <div id="u97" class="ax_动态面板" data-label="confirm">
@@ -373,6 +380,14 @@
   });
   $("#u143").click(function () {
     location.href="/kabUserManage";
+  });
+  $(function () {
+    var pageNos =$(".pageNo");
+    $.each(pageNos,function (i,e) {
+      $(this).click(function () {
+        location.href="/kabCourseReferraManage?pageNo="+$(this).find("a").text()
+      });
+    })
   });
 </script>
 </html>
