@@ -174,4 +174,9 @@ public class KabUsersController {
 
         return "";
     }
+
+    @RequestMapping("/kabUserManage")
+    public String kabUserManage(){
+        return "userManager";
+    }
 }
